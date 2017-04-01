@@ -1,5 +1,13 @@
 import re
-from numpy import *
+import operator
+import random
+import numpy as np
 import bayes
 
-bayes.spamTest()
+# stopWordList=bayes.getStopWord()
+bayes.trainBayes2()
+"""
+with open('output.out','w') as f:
+	f.write(str(b))
+"""
+print('hello')
